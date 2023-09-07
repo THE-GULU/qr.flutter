@@ -45,6 +45,9 @@ enum QrEyeShape {
 
   /// Use circular eye frame.
   circle,
+
+  /// Use zigzag eye frame.
+  zigzag,
 }
 
 /// Enumeration representing the shape of Data modules inside QR.

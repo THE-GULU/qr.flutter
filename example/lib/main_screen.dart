@@ -37,7 +37,7 @@ class _MainScreenState extends State<MainScreen> {
             data: message,
             version: QrVersions.auto,
             eyeStyle: const QrEyeStyle(
-              eyeShape: QrEyeShape.square,
+              eyeShape: QrEyeShape.zigzag,
               color: Color(0xff128760),
             ),
             dataModuleStyle: const QrDataModuleStyle(
